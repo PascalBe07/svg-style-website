@@ -96,7 +96,7 @@ main {
 }
 
 .content-section {
-    padding: 100px 160px 200px 160px;
+    padding: 10em 160px 10em 160px;
     /* height: 900px; */
     width: 100%;
     display: flex;
@@ -105,15 +105,13 @@ main {
 }
 
 .listen {
-    background: url(background-section2.svg) no-repeat;
+    background: #4A4398;
     color: white;
-    margin-bottom: -100px;
 }
 
 .get-to-know {
-    background: url(background-section3.svg) no-repeat;
+    background: #B8B7C4;
     color: #282828;
-    padding-top: 150px;
 }
 
 .content-section img {
@@ -122,7 +120,58 @@ main {
 
 .content-section div {
     width: 40%;
-    margin-bottom: 50px;
+}
+
+.content-section h2 { 
+    margin: 0;
+}
+
+.section-divider {
+    height: 5em;
+    width: 100%;
+}
+
+.two-to-three {
+    background: url(background-divider.svg) no-repeat;
+}
+
+.contact-us {
+    background: #4A4398;
+    color: white;
+    justify-content: space-around;
+    padding: 5em 10em 5em 10em;
+}
+
+.contact-us .contact-text {
+    text-align: center;
+}
+
+.contact-us .form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.contact-us .form label {
+     margin-top: 1em;
+     margin-bottom: 0.5em;
+}
+
+.contact-us .form input {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5em;
+}
+
+.contact-us .form textarea {
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5em;
+}
+
+.contact-us .form button {
+    margin-top: 1em;
+    margin-left: 20px;
 }
 
 #fixed-nav {
@@ -133,7 +182,7 @@ main {
     justify-content: space-between;
     display: flex;
     width: 100%;
-    padding: 0 50px;
+    padding: 0 140px;
     top: -100px;
     left: 0;
     z-index: 2;
@@ -142,5 +191,5 @@ main {
 }
 
 #fixed-nav h2 {
-    margin: 15px 0;
+    margin: 20px 0;
 }
